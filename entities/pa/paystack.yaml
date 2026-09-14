@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T15:25:17.018Z
   category: payments-fintech
 profile:
+  summary: Paystack provides payment processing APIs and business tools for companies in Africa.
   description: Paystack provides online payment infrastructure, APIs, and business tools to companies across Africa.
   links:
     site: https://paystack.com/
