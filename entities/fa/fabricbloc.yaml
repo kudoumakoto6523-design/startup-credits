@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T23:55:03.000Z
   category: payments-fintech
 profile:
+  summary: FabricBloc provides APIs and a macOS Studio for building onchain products, including wallets, tokens, NFTs, and vaults.
   description: FabricBloc provides APIs and a macOS Studio for creating and operating onchain wallets, tokens, NFTs, vaults, analytics, and scoped agent workflows.
   links:
     site: https://fabricbloc.com/
