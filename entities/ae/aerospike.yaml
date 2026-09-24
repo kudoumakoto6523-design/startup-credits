@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-31T00:04:22.012Z
   category: databases
 profile:
+  summary: Aerospike provides a real-time NoSQL database and Aerospike Cloud, a fully managed database-as-a-service platform.
   description: Aerospike provides a real-time NoSQL database and a fully managed database-as-a-service platform for applications that need predictable performance.
   links:
     site: https://aerospike.com/
