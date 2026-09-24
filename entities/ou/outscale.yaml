@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: €50,000 in credits offered at the start of the program to use all OUTSCALE services, including free SecNumCloud 3.2 cloud resources for 6 months.
+          description: €50,000 in credits to use all OUTSCALE services.
           kind: credit
           value:
             amount:
@@ -47,9 +47,6 @@ offers:
             kind: exact
         - benefit_id: ben_02
           description: Personalized advice and OUTSCALE Academy training offered for 6 months.
-          kind: other
-        - benefit_id: ben_03
-          description: 24/7 access to OUTSCALE's dedicated support.
           kind: other
         - benefit_id: ben_04
           description: Strategic and commercial meetings with OUTSCALE executives.
