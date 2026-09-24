@@ -10,7 +10,8 @@ entity:
       valid_from: 2026-08-30T15:16:30.047Z
   category: hosting-infra
 profile:
-  description: NHN Cloud provides cloud infrastructure, migration, operations, security, and managed support services for businesses.
+  summary: NHN Cloud is a South Korean cloud provider offering cloud infrastructure services, with MSP-led migration and operations support and 24/365 security monitoring.
+  description: NHN Cloud provides cloud infrastructure services in South Korea, with migration, operations, security monitoring, and marketplace support for businesses.
   links:
     site: https://www.nhncloud.com/kr
 sources:
@@ -21,7 +22,7 @@ programs:
     program_slug: nhn-cloud-startup-growth-support-promotion
     program_slug_aliases: []
     title: NHN Cloud Startup Growth Support Promotion
-    summary: NHN Cloud's program provides eligible startups with cloud credits, migration and operations support, education, and potential business and marketing collaboration.
+    summary: The NHN Cloud Startup Growth Support Promotion gives startups new to NHN Cloud infrastructure up to KRW 54 million in credits, plus migration support, cloud training, and business and marketing collaboration.
     source_ids:
       - src_6a7c5cfa2914e61421cfdfa03de0c930ac35c044b203ea447cd48bffc8383b74
 offers:
@@ -30,22 +31,26 @@ offers:
     offer_slug: nhn-cloud-startup-credits
     offer_slug_aliases: []
     title: Up to KRW 54 million in NHN Cloud credits
-    summary: Eligible startups can receive up to KRW 54 million in NHN Cloud service credits after application, consultation, and final contract confirmation.
+    summary: Startups with no prior NHN Cloud infrastructure use can receive up to KRW 54 million in credits, starting with KRW 10 million for first-time startups and stage-based credits as they grow.
     lifecycle:
       status: active
       effective_from: 2026-08-30T15:16:30.047Z
     economics:
       benefits:
         - benefit_id: startup_credits
-          description: Up to KRW 54 million in credits for eligible NHN Cloud services; GPU, Notification, and some licensed products are excluded
+          description: Up to KRW 54 million in NHN Cloud credits, with KRW 10 million for startups new to NHN Cloud and stage-based credits for growing startups; GPU, Notification, and some licensed products such as Windows are excluded.
           kind: credit
           value:
             kind: up-to
             amount:
               currency: KRW
               minor_units: 54000000
+        - benefit_id: startup_support
+          description: Migration and operations support through a startup-specialist MSP, cloud training and hands-on workshops, and business and co-marketing collaboration with NHN Cloud.
+          kind: other
       consideration:
-        kind: none
+        kind: variable
+        description: Credits are granted after the application, a consultation with an assigned consultant, and confirmation of a final contract; the usage period is agreed with the consultant and unused credits expire.
     eligibility:
       rule:
         kind: all
@@ -53,16 +58,17 @@ offers:
           - criterion_id: no_prior_infrastructure_use
             kind: manual
             reason: external-verification
-            statement: Applicant must be a startup with no prior use of NHN Cloud cloud infrastructure.
+            statement: The applicant is a startup with no prior use of NHN Cloud cloud infrastructure; users of services such as Notification or AppGuard without infrastructure use also qualify.
           - criterion_id: incorporated_business
             kind: manual
             reason: external-verification
-            statement: Individual sole proprietors are not eligible.
+            statement: Individual sole proprietors cannot apply.
     roles:
       terms_authority_entity_id: ent_01m19kwp6v2r6gfkqe473mfepy
       access_operator_entity_id: ent_01m19kwp6v2r6gfkqe473mfepy
     access:
       availability: public
+      instructions: Submit the application form on the promotion page, reply to the cloud usage survey sent by email, and receive tailored terms from an assigned consultant; no documents are required to apply.
       method: form
       url: https://info.nhncloud.com/promotion/startup
     source_ids:
