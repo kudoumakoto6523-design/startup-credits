@@ -38,7 +38,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_credits
-          description: $300 in Aerospike Cloud credits
+          description: $300 in free credits to get up and running
           kind: credit
           value:
             amount:
@@ -46,22 +46,17 @@ offers:
               minor_units: 30000
             kind: exact
         - benefit_id: ben_discount
-          applies_to: Aerospike Cloud public pricing
-          description: 10% off public pricing with pay-as-you-go flexibility
+          description: 10% discount on public pricing with pay-as-you-go flexibility
           kind: discount
           percentage:
             basis_points: 1000
             kind: exact
         - benefit_id: ben_architect_support
-          description: One day of dedicated Solution Architect support for the startup's data model and architecture
-          kind: free-service
-          service: Dedicated Solution Architect support
-          duration:
-            kind: exact
-            value: P1D
+          description: 1 day of free dedicated Solution Architect support for the startup's data model and architecture
+          kind: other
       consideration:
         kind: variable
-        description: Usage is billed at the discounted pay-as-you-go public price after credits; Aerospike states there is no commitment or migration cost to start.
+        description: The startup receives a 10% discount on public pricing with pay-as-you-go flexibility, with zero commitment and zero migration costs to start.
     eligibility:
       rule:
         criterion_id: cri_01
