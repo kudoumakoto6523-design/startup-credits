@@ -38,19 +38,16 @@ offers:
     economics:
       benefits:
         - benefit_id: startup_credits
-          description: Up to KRW 54 million in NHN Cloud credits, with KRW 10 million for startups new to NHN Cloud and stage-based credits for growing startups; GPU, Notification, and some licensed products such as Windows are excluded.
+          description: Up to KRW 54 million in NHN Cloud credits.
           kind: credit
           value:
             kind: up-to
             amount:
               currency: KRW
               minor_units: 54000000
-        - benefit_id: startup_support
-          description: Migration and operations support through a startup-specialist MSP, cloud training and hands-on workshops, and business and co-marketing collaboration with NHN Cloud.
-          kind: other
       consideration:
         kind: variable
-        description: Credits are granted after the application, a consultation with an assigned consultant, and confirmation of a final contract; the usage period is agreed with the consultant and unused credits expire.
+        description: Credits are granted once the final contract is confirmed after the promotion application and a consultation with the assigned consultant.
     eligibility:
       rule:
         kind: all
